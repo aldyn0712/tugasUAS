@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pure Lombok</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#">
+    <img src="image/logo.png" alt="Feel Lombok" class="site_logo">
+    <b>PureLombok</b>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tour.html">Tour Packages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+
+    <span class="navbar-divider">|</span>
+    <ul class="navbar-nav social-icons">
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.facebook.com" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.twitter.com" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.instagram.com" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.youtube.com" target="_blank">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <!-- Carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <div class="image-container">
+            <img src="image/tour4.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption">
+                <h1>Tour Packages</h1>
+                <p>Discover the beauty of Lombok with us</p>
+              </div>
+        </div>
+    </div>
+</div>
+      
+<!-- Tours Section -->
+<section id="tours" class="tours py-5 bg-light">
+  <div class="container">
+    <div class="d-flex tours">
+      <div class="card tour-card">
+        <a href="#">
+          <img src="image/rinjani.jpg" class="card-img-top" alt="Tour 1">
+          <div class="card-body">
+            <h5 class="card-title">2D/1N Rinjani Trek: Sembalun Group Package.</h5>
+            <p class="card-text">2.8M IDR+</p>
+          </div>
+        </a>
+      </div>
+      <div class="card tour-card">
+        <a href="#">
+          <img src="image/tour2.jpg" class="card-img-top" alt="Tour 2">
+          <div class="card-body">
+            <h5 class="card-title">3D/2N Rinjani Trek: Sembalun Group Package.</h5>
+            <p class="card-text">3M IDR +</p>
+          </div>
+        </a>
+      </div>
+      <div class="card tour-card">
+        <a href="#">
+          <img src="image/tour3.jpg" class="card-img-top" alt="Tour 3">
+          <div class="card-body">
+            <h5 class="card-title">Secret Island Camping 2D/1N</h5>
+            <p class="card-text">1.2M IDR +</p>
+          </div>
+        </a>
+      </div>
+      <div class="card tour-card">
+        <a href="#">
+          <img src="image/tour4.jpg" class="card-img-top" alt="Tour 4">
+          <div class="card-body">
+            <h5 class="card-title">Dirt-Biking – Kuta Coast + Lombok Jungles</h5>
+            <p class="card-text">1.7M IDR +</p>
+          </div>
+        </a>
+      </div>
+      <div class="card tour-card">
+        <a href="#">
+          <img src="image/tour5.jpg" class="card-img-top" alt="Tour 5">
+          <div class="card-body">
+            <h5 class="card-title">Rinjani Trek 2D/1N Crater Rim Senaru</h5>
+            <p class="card-text">3M IDR +</p>
+          </div>
+        </a>
+      </div>
+      <div class="card tour-card">
+        <a href="#">
+          <img src="image/tour6.jpg" class="card-img-top" alt="Tour 6">
+          <div class="card-body">
+            <h5 class="card-title">Rinjani trek 3D/2N Crater Rim and Lake via Senaru</h5>
+            <p class="card-text">4M IDR +</p>
+          </div>
+        </a>
+      </div>
+      <div class="card tour-card">
+        <a href="#">
+          <img src="image/tour7.jpg" class="card-img-top" alt="Tour 7">
+          <div class="card-body">
+            <h5 class="card-title">“Secret” Gilis Snorkeling – Gili Nanggu, Sudak & Kedis</h5>
+            <p class="card-text">450K IDR +</p>
+          </div>
+        </a>
+      </div>
+      <div class="card tour-card">
+        <a href="#">
+          <img src="image/tour8.jpg" class="card-img-top" alt="Tour 8">
+          <div class="card-body">
+            <h5 class="card-title">
+              Rinjani Eco Trekking & Tree Planting</h5>
+            <p class="card-text">3.4M IDR +</p>
+          </div>
+        </a>
+      </div>
+      <div class="card tour-card">
+        <a href="#">
+          <img src="image/tour9.jpg" class="card-img-top" alt="Tour 9">
+          <div class="card-body">
+            <h5 class="card-title">
+              Gili T, Gili Air & Gili Meno Snorkeling</h5>
+            <p class="card-text">200K IDR +</p>
+          </div>
+        </a>
+      </div>
+      <div class="card tour-card">
+        <a href="#">
+          <img src="image/tour10.png" class="card-img-top" alt="Tour 10">
+          <div class="card-body">
+            <h5 class="card-title">Selong Belanak, Mawun and Tampah beaches</h5>
+            <p class="card-text">325K IDR +</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tours Section -->
+<section id="tours" class="tours py-5 bg-light">
+    <div class="container">
+      <div class="d-flex tours">
+        <!-- Repeat this card 10 times -->
+        <div class="card tour-card">
+          <a href="#">
+            <img src="image/tour11.jpg" class="card-img-top" alt="Tour 1">
+            <div class="card-body">
+              <h5 class="card-title">Pergasingan Hill Trekking lombok</h5>
+              <p class="card-text">2M IDR</p>
+            </div>
+          </a>
+        </div>
+        <div class="card tour-card">
+          <a href="#">
+            <img src="image/tour12.png" class="card-img-top" alt="Tour 2">
+            <div class="card-body">
+              <h5 class="card-title">Benang Stokel & Benang Kelambu Waterfalls</h5>
+              <p class="card-text">450K IDR +</p>
+            </div>
+          </a>
+        </div>
+        <div class="card tour-card">
+          <a href="#">
+            <img src="image/tour13.jpg" class="card-img-top" alt="Tour 3">
+            <div class="card-body">
+              <h5 class="card-title">Horse Riding on Gili Trawangan</h5>
+              <p class="card-text">450K IDR +</p>
+            </div>
+          </a>
+        </div>
+        <div class="card tour-card">
+          <a href="#">
+            <img src="image/tour14.png" class="card-img-top" alt="Tour 4">
+            <div class="card-body">
+              <h5 class="card-title">Tanjung Ann Beach & Bukit Merese View</h5>
+              <p class="card-text">335K IDR +</p>
+            </div>
+          </a>
+        </div>
+        <div class="card tour-card">
+          <a href="#">
+            <img src="image/tour15.jpg" class="card-img-top" alt="Tour 5">
+            <div class="card-body">
+              <h5 class="card-title">Village view & Rice Paddy Cycling</h5>
+              <p class="card-text">600K IDR +</p>
+            </div>
+          </a>
+        </div>
+        <div class="card tour-card">
+          <a href="#">
+            <img src="image/tour16.png" class="card-img-top" alt="Tour 6">
+            <div class="card-body">
+              <h5 class="card-title">Waterfalls Sendang Gile & Tiu Kelep</h5>
+              <p class="card-text">500K IDR +</p>
+            </div>
+          </a>
+        </div>
+        <div class="card tour-card">
+          <a href="#">
+            <img src="image/tour17.webp" class="card-img-top" alt="Tour 7">
+            <div class="card-body">
+              <h5 class="card-title">Tetebatu Rice Terrace Panoramic Walk</h5>
+              <p class="card-text">600K IDR +</p>
+            </div>
+          </a>
+        </div>
+        <div class="card tour-card">
+          <a href="#">
+            <img src="image/tour18.png" class="card-img-top" alt="Tour 8">
+            <div class="card-body">
+              <h5 class="card-title">
+                Pink Beach, Pulau Pasir & Gilis</h5>
+              <p class="card-text">550K IDR +</p>
+            </div>
+          </a>
+        </div>
+        <div class="card tour-card">
+          <a href="#">
+            <img src="image/tour19.jpg" class="card-img-top" alt="Tour 9">
+            <div class="card-body">
+              <h5 class="card-title">Kuta Lombok Surf Lessons and Camps</h5>
+              <p class="card-text">500K IDR +</p>
+            </div>
+          </a>
+        </div>
+        <div class="card tour-card">
+          <a href="#">
+            <img src="image/tour20.png" class="card-img-top" alt="Tour 10">
+            <div class="card-body">
+              <h5 class="card-title">Sengiggi Coast Road Batu Bolong Temple’</h5>
+              <p class="card-text">335K IDR +</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+      <div class="col-lg-6">
+        <div class="d-flex align-items-center mb-4">
+          <div class="contact-icons">
+            <a href="#"><i class="fab fa-facebook" style="color: #3b5998;"></i></a>
+            <a href="#"><i class="fab fa-twitter" style="color: #1da1f2;"></i></a>
+            <a href="#"><i class="fab fa-youtube" style="color: #c4302b;"></i></a>
+            <a href="#"><i class="fab fa-instagram" style="color: #c32aa3;"></i></a>
+          </div>
+        </div>
+        <div class="contact-info">
+          <p><i class="fas fa-map-marker-alt"></i> <a href="https://maps.google.com/?q=Bagik+Payung+Selatan+Suralaga+Lombok+Timur" target="_blank">Bagik Payung Selatan, Suralaga, Lombok Timur</a></p>
+          <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/6281917785234" target="_blank">+6281917785234</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:info@pure-lombok.com">info@pure-lombok.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 bg-dark text-white text-center">
+  <div class="container">
+    <p>&copy; 2024 Pure Lombok. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
